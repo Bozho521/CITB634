@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Candy Crush</title>
+        <link rel="stylesheet" href="candy.css">
+        <script src="candy.js" defer></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div id="game-title">CANDY CRUSH NBU</div>
+            
+            <div id="score">Score: <span id="score-value">0</span></div>
+
+            <div class="game-log-container">
+                <div id="board"></div>
+
+                <div id="log-container">
+                    <h2>Game Log</h2>
+                    <div id="log"></div>
+                </div>
+            </div>
+
+            <div class="shuffle-container">
+                <img id="shuffleButton" class="reshuffle-img" src="images/shuffle.png" alt="Shuffle">
+                <img id="shuffleNumber" class="shuffle-number" src="images/digit_3.png" alt="Shuffle Number">
+            </div>
+        </div>
+
+        <div id="leaderboard">
+            <h2>🏆 Leaderboard</h2>
+            <ul id="leaderboard-list"></ul>
+            <button id="resetButton" style="margin-top: 15px;">Reset Leaderboard</button>
+        </div>
+    </body>
+</html>
